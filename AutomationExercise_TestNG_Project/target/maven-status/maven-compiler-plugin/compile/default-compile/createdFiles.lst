@@ -1,0 +1,13 @@
+Pages\PaymentPage.class
+Pages\SignupLoginPage.class
+Pages\CategoryPage.class
+Pages\CartPage.class
+Pages\CheckoutPage.class
+Pages\HomePage.class
+FrameWork\Selenium_FrameWork.class
+Pages\ProductsPage.class
+Pages\ProductPage.class
+Pages\AccountCreationPage.class
+Pages\ContactUsPage.class
+Pages\AccountCreatedPage.class
+Pages\InvoicePage.class
