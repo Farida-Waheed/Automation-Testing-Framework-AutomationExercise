@@ -108,7 +108,7 @@ To clone and run the project locally:
 
 ```bash
 # Clone this repository
-git clone https://github.com/[your-username]/Automation-Testing-Framework-AutomationExercise.git
+git clone https://github.com/Farida-Waheed/Automation-Testing-Framework-AutomationExercise.git
 
 # Navigate to project directory
 cd Automation-Testing-Framework-AutomationExercise
@@ -131,7 +131,7 @@ The project automates **26 test scenarios** covering critical user workflows.
 Each scenario is designed to simulate real-world web interactions and validate end-to-end behavior.
 
 You can explore the project source code and reports at:
-**GitHub Repository:** [https://github.com/farida_waheed/Automation-Testing-Framework-AutomationExercise](https://github.com/farida_waheed/Automation-Testing-Framework-AutomationExercise)
+**GitHub Repository:** [https://github.com/Farida-Waheed/Automation-Testing-Framework-AutomationExercise](https://github.com/Farida-Waheed/Automation-Testing-Framework-AutomationExercise)
 
 ---
 
