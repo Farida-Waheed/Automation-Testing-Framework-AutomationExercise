@@ -145,4 +145,5 @@ Their structured curriculum and mentorship played a key role in developing this 
 ## **Author**
 
 **Farida Waheed Abdelbary**
+
 Software Testing Diploma Graduate – Edges for Training
