@@ -1,0 +1,199 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AutomationExerciseSuite">
+    <!-- Register User Test (Test Case 1) -->
+    <test name="RegisterUserTest">
+        <groups>
+            <run>
+                <include name="register"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="Tests"/>
+        </packages>
+    </test>
+
+    <!-- Login User with correct email and password (Test Case 2) -->
+    <test name="LoginUserCorrectTest">
+        <groups>
+            <run>
+                <include name="login"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="Tests"/>
+        </packages>
+    </test>
+    
+    <!-- Login User with uncorrect email and password (Test Case 3) -->
+    <test name="LoginUserWrongTest">
+        <groups>
+            <run>
+                <include name="loginWrong"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="Tests"/>
+        </packages>
+    </test>
+    
+    <!-- Logout User (Test Case 4) -->
+    <test name="LogoutUserTest">
+        <classes>
+            <class name="Tests.LogoutUserTest"/>
+        </classes>
+    </test>
+
+    <!-- Register with Existing Email (Test Case 5) -->
+    <test name="RegisterExistingEmailTest">
+        <classes>
+            <class name="Tests.RegisterExistingEmailTest"/>
+        </classes>
+    </test>
+    
+    <!-- Contact Us Form (Test Case 6) -->
+    <test name="ContactUsFormTest">
+        <classes>
+            <class name="Tests.ContactUsTest"/>
+        </classes>
+    </test>
+    
+    <!-- Verify Test Cases Page (Test Case 7) -->
+    <test name="TestCasesPageTest">
+        <classes>
+            <class name="Tests.TestCasesPageTest"/>
+        </classes>
+    </test>
+
+    <!-- Verify All Products and product detail page (Test Case 8) -->
+    <test name="ProductsPageTest">
+        <classes>
+            <class name="Tests.ProductsPageTest"/>
+        </classes>
+    </test>
+
+    <!-- Search Product (Test Case 9) -->
+    <test name="SearchProductTest">
+        <classes>
+            <class name="Tests.SearchProductTest"/>
+        </classes>
+    </test>
+
+    <!-- Verify Subscription in home page (Test Case 10) -->
+    <test name="SubscriptionTest">
+        <classes>
+            <class name="Tests.SubscriptionTest"/>
+        </classes>
+    </test>
+
+    <!-- Verify Subscription in Cart page (Test Case 11) -->
+    <test name="CartSubscriptionTest">
+        <classes>
+            <class name="Tests.CartSubscriptionTest"/>
+        </classes>
+    </test>
+    
+    <!-- Add Products in Cart (Test Case 12) -->
+    <test name="CartTest">
+        <classes>
+            <class name="Tests.CartTest"/>
+        </classes>
+    </test>
+    
+    <!--  Verify Product quantity in Cart (Test Case 13) -->
+    <test name="VerifyProductQuantityInCartTest">
+        <classes>
+            <class name="Tests.VerifyProductQuantityInCartTest"/>
+        </classes>
+    </test>
+    
+    <!--  Place Order: Register while Checkout (Test Case 14) -->
+    <test name="PlaceOrderRegisterWhileCheckoutTest">
+        <classes>
+            <class name="Tests.PlaceOrderRegisterWhileCheckoutTest"/>
+        </classes>
+    </test>
+    
+    <!--  Place Order: Register before Checkout (Test Case 15) -->
+    <test name="PlaceOrderRegisterBeforeCheckoutTest">
+        <classes>
+            <class name="Tests.PlaceOrderRegisterBeforeCheckoutTest"/>
+        </classes>
+    </test>
+    
+    <!--  Place Order: Register before Checkout (Test Case 16) -->
+    <test name="PlaceOrderLoginBeforeCheckoutTest">
+        <classes>
+            <class name="Tests.PlaceOrderLoginBeforeCheckoutTest"/>
+        </classes>
+    </test>
+    
+    <!--  Remove Products From Cart (Test Case 17) -->
+    <test name="RemoveProductFromCartTest">
+        <classes>
+            <class name="Tests.RemoveProductFromCartTest"/>
+        </classes>
+    </test>
+    
+    <!--  View Category Products (Test Case 18) -->
+    <test name="ViewCategoryProductsTest">
+        <classes>
+            <class name="Tests.ViewCategoryProductsTest"/>
+        </classes>
+    </test>
+    
+    <!--  View & Cart Brand Products (Test Case 19) -->
+    <test name="ViewCartBrandProductsTest">
+        <classes>
+            <class name="Tests.ViewCartBrandProductsTest"/>
+        </classes>
+    </test>
+    
+    <!--  Search Products and Verify Cart After Login (Test Case 20) -->
+    <test name="SearchProductsandVerifyCartAfterLoginTest">
+        <classes>
+            <class name="Tests.SearchProductsandVerifyCartAfterLoginTest"/>
+        </classes>
+    </test>
+    
+     <!--  Add review on product (Test Case 21) -->
+    <test name="AddReviewTest">
+        <classes>
+            <class name="Tests.AddReviewTest"/>
+        </classes>
+    </test>
+    
+    <!--  Add to cart from Recommended items (Test Case 22) -->
+    <test name="RecommendedItemsTest">
+        <classes>
+            <class name="Tests.RecommendedItemsTest"/>
+        </classes>
+    </test>
+    
+    <!--  Verify address details in checkout page (Test Case 23) -->
+    <test name="VerifyAddressDetailsInCheckoutTest">
+        <classes>
+            <class name="Tests.VerifyAddressDetailsInCheckoutTest"/>
+        </classes>
+    </test>
+    
+    <!--  Download Invoice after purchase order (Test Case 24) -->
+    <test name="DownloadInvoiceTest">
+        <classes>
+            <class name="Tests.DownloadInvoiceTest"/>
+        </classes>
+    </test>
+    
+    <!--  Verify Scroll Up using 'Arrow' button and Scroll Down functionality (Test Case 25) -->
+    <test name="ScrollUpDownTest">
+        <classes>
+            <class name="Tests.ScrollUpDownTest"/>
+        </classes>
+    </test>
+    
+    <!--  Verify Scroll Up without 'Arrow' button and Scroll Down functionality (Test Case 26) -->
+    <test name="ScrollUpWithoutArrowTest">
+        <classes>
+            <class name="Tests.ScrollUpWithoutArrowTest"/>
+        </classes>
+    </test>
+</suite>
